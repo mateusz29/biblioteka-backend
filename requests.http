@@ -1,0 +1,42 @@
+### Print all libraries
+GET http://localhost:8080/api/libraries
+
+### Update library data / Create new library
+PUT http://localhost:8080/api/libraries/18b0eb35-9cda-4c5e-b63b-e3875a275765
+Content-Type: application/json
+
+{
+  "name": "TgfdgT",
+  "yearFounded": 2034
+}
+
+### Print library by Id
+GET http://localhost:8080/api/libraries/1cefcdc1-37f3-40d2-ad6a-40e9c2e241f3
+
+### Delete library
+DELETE http://localhost:8080/api/libraries/fb787021-cc4f-4233-88f4-dd3104e3e572
+
+### Print books that are in a library
+GET http://localhost:8080/api/libraries/fb787021-cc4f-4233-88f4-dd3104e3e572/books
+
+
+
+### Print all books
+GET http://localhost:8080/api/books
+
+### Update book data / Create new book
+PUT http://localhost:8080/api/books/db235100-343b-44a6-ac39-b2ba464f8b8e
+Content-Type: application/json
+
+{
+  "yearPublished": 2000,
+  "title": "treyefsdfsdhs",
+  "author": "ffdsfsddf",
+  "library": "18b0eb35-9cda-4c5e-b63b-e3875a275765"
+}
+
+###  Print book by Id
+GET http://localhost:8080/api/books/db235100-343b-44a6-ac39-b2ba464f8b8e
+
+### Delete Book
+DELETE http://localhost:8080/api/books/ca8e8ff2-7ae1-11ee-b962-0242ac120002
