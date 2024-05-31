@@ -1,6 +1,6 @@
-# Biblioteka Microservices
+# Biblioteka Backend
 
-Biblioteka Microservices is a comprehensive solution for library and book management, designed to provide efficient and scalable services for handling various aspects of library operations. The project is built on the principles of microservices architecture, allowing for independent development, deployment, and scalability of individual components.
+Biblioteka Backend is a comprehensive solution for library and book management, designed to provide efficient and scalable services for handling various aspects of library operations. The project is built on the principles of microservices architecture, allowing for independent development, deployment, and scalability of individual components.
 
 ## Overview
 
