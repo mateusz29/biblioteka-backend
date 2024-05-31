@@ -24,6 +24,8 @@ The project is divided into microservices, each responsible for a specific domai
 
 - **H2 Database**: H2 Database is used as an in-memory database for development and testing purposes, providing a lightweight and efficient solution.
 
+- **Lombok**: Lombok is used to reduce boilerplate code by generating getters, setters, constructors, and other common methods automatically.
+
 ## API Documentation
 
 The microservices expose the following API endpoints:
